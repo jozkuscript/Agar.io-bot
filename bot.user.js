@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name        AposBot
-// @namespace   AposBot
+// @name        Botti
+// @namespace   Botti
 // @include     http://agar.io/
 // @version     3.13
 // @grant       none
@@ -648,7 +648,7 @@ console.log("Running Apos Bot!");
                         }
                     }
 
-                    if (canSplit(player[0], allPossibleThreats[i])) {
+                    if (canSplit(player[1], allPossibleThreats[i])) {
                         drawCircle(allPossibleThreats[i].x, allPossibleThreats[i].y, allPossibleThreats[i].size + splitDistance, 0);
                     } else {
                         drawCircle(allPossibleThreats[i].x, allPossibleThreats[i].y, allPossibleThreats[i].size + player[0].size + player[0].size, 3);
