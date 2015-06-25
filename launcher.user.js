@@ -909,11 +909,11 @@ console.log("Running Bot Launcher!");
       a.globalAlpha = 1;
       a.fillStyle = '#FFFFFF';
       c = null;
-      c = 'Leaderboard';
+      c = 'Johdossa:';
       a.font = '30px Ubuntu';
       a.fillText(c, 100 - a.measureText(c).width / 2, 40);
-      if (null == x) for (a.font = '20px Ubuntu', b = 0; b < A.length; ++b) c = A[b].name || 'An unnamed cell',
-      ka || (c = 'An unnamed cell'),
+      if (null == x) for (a.font = '20px Ubuntu', b = 0; b < A.length; ++b) c = A[b].name || 'Nimetön',
+      ka || (c = 'Nimetön),
       - 1 != F.indexOf(A[b].id) ? (m[0].name && (c = m[0].name), a.fillStyle = '#FFAAAA')  : a.fillStyle = '#FFFFFF',
       c = b + 1 + '. ' + c,
       a.fillText(c, 100 - a.measureText(c).width / 2, 70 + 24 * b);
@@ -961,7 +961,7 @@ console.log("Running Bot Launcher!");
   dArc = [],
   dText = [],
   lines = [],
-  names = ["NotReallyABot"],
+  names = ["MrJozku101],
   originalName = names[Math.floor(Math.random() * names.length)],
   sessionScore = 0,
   serverIP = "",
